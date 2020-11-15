@@ -1,0 +1,63 @@
+.key-focus{
+    padding-top: 150px;
+}
+
+.progression{
+    border: none;
+    padding: 30px 15px;
+    color: #fff;
+    position: relative;
+}
+
+.workout{
+    border: none;
+    padding: 30px 15px;
+    color: #fff;
+    position: relative;
+}
+
+.nutrition{
+    border: none;
+    padding: 30px 15px;
+    color: #fff;
+    position: relative;
+}
+
+.progression:before{
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../resources/images/progression-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.workout:before{
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../resources/images/workout-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.nutrition:before{
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../resources/images/nutrition-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

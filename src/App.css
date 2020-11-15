@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.btn-main{
+  background-color: #fcd842;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
+.btn-main:hover{
+  color:#fcd842;
+  background-color: transparent;
+  border: 1px solid #fcd842;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
