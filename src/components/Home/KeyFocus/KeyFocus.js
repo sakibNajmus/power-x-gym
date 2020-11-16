@@ -6,7 +6,7 @@ import nutrition from '../../../resources/images/Nutrition.png'
 
 const KeyFocus = () => {
     return (
-        <section className="key-focus my-5">
+        <section id="key-focus" className="my-5">
             <div className="container">
                 <div className="row text-center">
                     <div className="col-md-4 mb-3">

@@ -4,7 +4,7 @@ import HeaderContent from './HeaderContent';
 
 const Header = () => {
     return (
-        <section className="header">
+        <section id="header">
             <div className="container">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                 <a class="navbar-brand" href="#" style={{fontSize: '35px', fontWeight: '500'}}>POWER <span style={{color: '#fcd842'}}>X</span></a>

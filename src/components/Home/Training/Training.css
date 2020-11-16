@@ -1,0 +1,27 @@
+.yoga-button button{
+    background-color: #fcd842;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 700;
+    position: absolute;
+    left:10;
+    bottom:35px;
+}
+
+.yoga{
+    position: relative;
+}
+
+.cardio-button button{
+    background-color: #fcd842;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 700;
+    position: absolute;
+    left:10;
+    bottom:35px;
+}
+
+.cardio{
+    position: relative;
+}

@@ -1,0 +1,32 @@
+.fitness{
+    padding: 40px;
+    box-shadow: 10px 10px 15px rgba(235, 235, 235, 0.767);
+}
+
+.cycling{
+    padding: 40px;
+    box-shadow: 10px 10px 15px rgba(235, 235, 235, 0.767);
+}
+
+.membership{
+    padding: 40px;
+    box-shadow: 10px 10px 15px rgba(235, 235, 235, 0.767);
+}
+
+.fitness:hover{
+    cursor: pointer;
+    border: 1px solid #fcd842;
+    box-shadow: 10px 10px 15px rgba(211, 211, 211, 0.767);
+}
+
+.cycling:hover{
+    cursor: pointer;
+    border: 1px solid #fcd842;
+    box-shadow: 10px 10px 15px rgba(211, 211, 211, 0.767);
+}
+
+.membership:hover{
+    cursor: pointer;
+    border: 1px solid #fcd842;
+    box-shadow: 10px 10px 15px rgba(211, 211, 211, 0.767);
+}
