@@ -1,10 +1,19 @@
 import React from 'react';
+import './Pricing.css';
+import PricingCart from './PricingCart';
 
 const Pricing = () => {
     return (
-        <div>
-            <h1>hello world</h1>
-        </div>
+        <section className="container mt-5 mb-5">
+          <div className=" text-center">
+          <h2><span className="text-warning">CHOOSE THE OFFER</span> THAT SUITS YOU</h2>
+            <p className="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <br/> laudantium, totam rem aperiam</p>
+          </div>
+          <div className="">
+              <PricingCart/>
+          </div>
+           
+        </section>
     );
 };
 
