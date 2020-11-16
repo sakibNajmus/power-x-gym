@@ -8,6 +8,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home/Home';
+import Pricing from './components/Pricing/Pricing';
+import Membership from './components/Membership/Membership';
 
 function App() {
   return (
@@ -19,6 +21,13 @@ function App() {
         <Route exact path="/">
           <Home></Home>
         </Route>
+        <Route path="/pricing">
+          <Pricing/>
+        </Route>
+        <Route path="/membership">
+          <Membership/>
+        </Route>
+
       </Switch>
     </Router>
   );
