@@ -1,0 +1,12 @@
+#page-header {
+    height: 200px;
+    background: url("../../resources/images/bg.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px; 
+}
+  
