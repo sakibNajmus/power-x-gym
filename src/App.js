@@ -8,6 +8,10 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home/Home';
+import Classes from './components/Classes/Classes';
+import Product from './components/Product/Product';
+import Footer from './components/Home/Footer/Footer';
+import ClassDetails from './components/ClassDetails/ClassDetails';
 
 function App() {
   return (
@@ -19,6 +23,19 @@ function App() {
         <Route exact path="/">
           <Home></Home>
         </Route>
+
+        <Route path="/classes">
+          <Classes></Classes>
+        </Route>
+        <Route path="/product">
+            <Product></Product>
+          </Route>
+          <Route path='/classDetails/:Id'>
+            <ClassDetails></ClassDetails>
+          </Route>
+          <Route>
+            <Footer></Footer>
+          </Route>
       </Switch>
     </Router>
   );

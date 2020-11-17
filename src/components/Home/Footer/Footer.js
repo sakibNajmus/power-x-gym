@@ -10,7 +10,7 @@ const Footer = () => {
             <div id="footer" className="container">
                 <div className="row pt-5">
                     <div className="col-md-3">                        
-                        <a href="#" style={{fontSize: '35px', fontWeight: '500', textDecoration: 'none', color: 'white'}}>POWER <span style={{color: '#fcd842'}}>X</span></a>
+                        <a href="#header" style={{fontSize: '35px', fontWeight: '500', textDecoration: 'none', color: 'white'}}>POWER <span style={{color: '#fcd842'}}>X</span></a>
                     </div>
 
                     <div className="col-md-2">
