@@ -7,7 +7,7 @@ import { faFacebookF, faInstagram, faGooglePlusG, faYoutube, faTwitter, faWhatsa
 const Footer = () => {
     return (
         <footer>
-            <div className="container">
+            <div id="footer" className="container">
                 <div className="row pt-5">
                     <div className="col-md-3">                        
                         <a href="#" style={{fontSize: '35px', fontWeight: '500', textDecoration: 'none', color: 'white'}}>POWER <span style={{color: '#fcd842'}}>X</span></a>

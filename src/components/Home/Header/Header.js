@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'
 import HeaderContent from './HeaderContent';
 
@@ -18,22 +19,22 @@ const Header = () => {
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">Services</a>
+                            <Link class="nav-link" to="/pricing">Services</Link>
                         </li>
                         <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">Our Classes</a>
+                            <Link class="nav-link" to="/classes">Our Classes</Link>
                         </li>
                         <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item mr-3">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <Link class="nav-link" to="/pricing">Pricing</Link>
                         </li>
                         <li class="nav-item mr-3">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#footer">Contact Us</a>
                         </li>
                     </ul>
                 </div>
