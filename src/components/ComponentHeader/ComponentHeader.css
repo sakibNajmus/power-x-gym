@@ -1,13 +1,13 @@
 #component-header{
     background-color: #fff;
     position: relative;
-    height:650px;
+    height:430px;
 }
 #component-header:before{
     width: 100%;
-    height: 650px;
+    height: 430px;
     content: " ";
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../src/resources/images/HeadBackground.jpg);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../src/resources/images/component-head.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;

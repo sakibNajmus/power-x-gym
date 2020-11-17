@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import yoga from '../../../resources/images/yoga.png'
 import cardio from '../../../resources/images/cardio.jpg'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Training = () => {
     return (
@@ -16,7 +17,7 @@ const Training = () => {
                             <img className="img-fluid" src={yoga} alt=""/>
                         </div>
                         <div className="yoga-button">
-                            <button style={{textTransform: 'uppercase'}}>Yoga Training Session <span className="ml-5"><FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            <Link to="/classes"><button style={{textTransform: 'uppercase'}}>Yoga Training Session <span className="ml-5"><FontAwesomeIcon icon={faArrowRight} /></span></button></Link>
                         </div>
                     </div>
                     
@@ -25,7 +26,7 @@ const Training = () => {
                             <img className="img-fluid" src={cardio} alt=""/>
                         </div>
                         <div className="yoga-button">
-                            <button style={{textTransform: 'uppercase'}}>Cardio Training Session <span className="ml-5"><FontAwesomeIcon icon={faArrowRight} /></span></button>
+                            <Link to="/classes"><button style={{textTransform: 'uppercase'}}>Cardio Training Session <span className="ml-5"><FontAwesomeIcon icon={faArrowRight} /></span></button></Link>
                         </div>
                     </div>
                 </div>

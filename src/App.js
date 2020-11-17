@@ -12,6 +12,8 @@ import Classes from './components/Classes/Classes';
 import Product from './components/Product/Product';
 import Footer from './components/Home/Footer/Footer';
 import ClassDetails from './components/ClassDetails/ClassDetails';
+import Pricing from './components/Pricing/Pricing'
+import Membership from './components/Membership/Membership'
 
 function App() {
   return (
@@ -33,8 +35,11 @@ function App() {
           <Route path='/classDetails/:Id'>
             <ClassDetails></ClassDetails>
           </Route>
-          <Route>
-            <Footer></Footer>
+          <Route path='/pricing'>
+            <Pricing></Pricing>
+          </Route>
+          <Route path="/membership">
+            <Membership></Membership>
           </Route>
       </Switch>
     </Router>
